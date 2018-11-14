@@ -1,2 +1,2 @@
 # StoutPorter2
-Elixir Porter2 Stemmer
+Efficient Elixir implementation of the English Porter2 stemming algorithm.

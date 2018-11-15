@@ -10,7 +10,7 @@ defmodule StoutPorter2.MixProject do
       deps: deps(),
       description: description(),
       package: package(),
-      source_url: "https://github.com/stout_porter2XXXXTODO"
+      source_url: "https://github.com/patrick7777776/StoutPorter2"
     ]
   end
 
@@ -38,7 +38,7 @@ defmodule StoutPorter2.MixProject do
     [
       name: "stout_porter2",
       licenses: ["AGPL-3.0"],
-      links: %{"GitHub" => "https://github.com/XXXXXXXTODOXXXXX"}
+      links: %{"GitHub" => "https://github.com/patrick7777776/StoutPorter2"}
     ]
   end
 end

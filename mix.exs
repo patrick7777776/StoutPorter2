@@ -31,7 +31,7 @@ defmodule StoutPorter2.MixProject do
   end
 
   defp description() do
-    "Efficient implementation of the English Porter2 stemming algorithm."
+    "Porter2 stemmer: efficient implementation of the English Porter2 stemming algorithm."
   end
 
   defp package() do

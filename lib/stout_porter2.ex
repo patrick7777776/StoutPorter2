@@ -20,9 +20,6 @@ defmodule StoutPorter2 do
   Efficient implementation of the [English Porter2 stemming algorithm](http://snowballstem.org/algorithms/english/stemmer.html).
   """
 
-  #@compile :native
-  #@compile [:native, {:hipe, [:o3]}]
-
   @doc """
   Reduces a word to its stem.
 
@@ -447,7 +444,7 @@ defmodule StoutPorter2 do
 
   defp postlude(w) do
     :lists.reverse(w)
-    |> IO.iodata_to_binary()
+    |> List.to_string()
     |> String.downcase()
   end
 end

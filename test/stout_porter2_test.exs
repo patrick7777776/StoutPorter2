@@ -10,4 +10,9 @@ defmodule StoutPorter2Test do
 
     assert disagreements == []
   end
+
+  test "Unicode characters" do
+    assert StoutPorter2.stem("a‣b") == "a‣b"
+  end
+
 end
